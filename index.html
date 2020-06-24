@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pincet</title>
+  <link rel="shortcut icon" href="img/Фавикон-2.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="bg-paralax">
+    <img class="bg-cloud-1 paralax" data-speed="40" src="img/cloud-1.png">
+    <img class="bg-cloud-2 paralax" data-speed="60" src="img/cloud-2.png">
+  </div>
+  <header class="header">
+    <img class="bg-girl" src="img/girl.png">
+    <img class="bg-cart" src="img/cart.png">
+    <div class="bg-wave">
+      <img class="wave" src="img/wave.svg">
+      <img class="arrowdown" src="img/arrowdown.svg">
+    </div>
+    <div class="container">
+      <div class="header__top">
+        <div class="header__left">
+          <a href="#s" class="logo">
+            <img class="logo__img" src="img/Логотип.png" alt="Pincet">
+          </a>
+          <div class="logo__descr">
+            <p>Студия депиляции и<br>
+              массажный кабинет<br>
+              в Бресте</p>
+          </div>
+        </div><!--header__left-->
+        <div class="header__right">
+          <div class="location">
+            <img src="img/Карта.png" alt="Карта">
+            <div class="location__descr">
+              <p><span>Мы находимся в центре:</span><br>
+                г. Брест, ул. Гоголя, д.65</p>
+              <a href="#">Смотреть на карте
+                <div class="map-popup">
+                  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A22f476ced07560cc11ef8e15c2023c1416537e75ecb31cec35dbc944f75059e2&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="contacts">
+            <div class="contacts__phone">
+              <img src="img/phone.svg" alt="Телефон">
+              <div class="contacts__phone-content">
+                <p>Звоните, мы сейчас работаем</p>
+                <a href="tel:+375 33 382 24 99">+375 33 382 24 99</a>
+              </div>
+            </div>
+            <div class="contacts__worktime">
+              <img src="img/time.svg" alt="Рабочее время">
+              <p>Пн-Вс <span>9:00-21:00</span></p>
+            </div>
+          </div>
+          <button class="button js-open-form">
+            <img src="img/calendar.svg" alt="Записаться онлайн">
+            <p>Записаться онлайн</p>
+          </button>
+        </div><!--header__right-->
+      </div><!--header__top-->
+      <div class="header__menu">
+        <div class="hamburger js-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="#s">Главная</a>
+          </li>
+          <li>
+            <a href="#s">Шугаринг и депиляция воском</a>
+          </li>
+          <li>
+            <a href="#s">Антицеллюлитный массаж</a>
+          </li>
+          <li>
+            <a href="#s">Классический массаж</a>
+          </li>
+          <li>
+            <a href="#s">Обучение</a>
+          </li>
+          <li>
+            <a href="#s">Косметика для мастеров</a>
+          </li>
+          <li>
+            <a href="#s">Статьи</a>
+          </li>
+          <li>
+            <a href="#s">О студии</a>
+          </li>
+          <li>
+            <a href="#s">Контакты</a>
+          </li>
+        </ul><!--menu-->
+      </div><!--header__menu-->
+      <div class="header__promo">
+        <div class="title">Хотите избавиться от<br>
+          <span>нежелательных волос</span><br>
+          или нужен сеанс<br>
+          <span>антицеллюлитного массажа?</span>
+        </div>
+        <div class="subtitle">
+          <div class="subtitle__left">
+            <ul>
+              <li><span>депиляция воском и Шугаринг;</span></li>
+              <li><span>профессиональные сертифицированные мастера;</span></li>
+              <li><span>работаем и с женщинами, и с мужчинами;</span></li>
+              <li><span>результат уже после первой процедуры.</span></li>
+            </ul>
+            <button class="button js-open-form">
+              <p>Получить карту<br>клиента бесплатно</p>
+              <img src="img/branch.png" alt="Ветка">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-form">
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <p class="title"><span>Получите</span> программу обучения</p>
+        <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis nihil vel eveniet voluptatibus, quaerat sunt, dolore quod iusto, quibusdam omnis cum soluta inventore. Ab quae consequuntur consectetur. Nihil, modi!</p>
+        <form>
+          <img class="bg-book" src="img/book.png">
+          <select>
+            <option value="">Повышение квалификации</option>
+          </select>
+          <input type="text" name="user_name" placeholder="Ваше имя">
+          <input type="tel" name="user_phone" placeholder="Ваш номер телефона">
+          <button id="form-submit">Получить программу
+            <img src="img/plant.svg">
+          </button>
+        </form>
+      </div>
+      <div class="modal-success">
+        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+        <img src="img/success.svg">
+        <p class="title">Ваш заказ принят.</p>
+        <p class="subtitle">Ожидайте звонка</p>
+        <img class="bg-modal-leave" src="img/leave.png">
+        <img class="bg-modal-cloud" src="img/cloud-2.png">
+      </div>
+      <div class="overlay" id="overlay-modal"></div>
+    </div><!--container-->
+  </header>
+</body>
+</html>
