@@ -660,9 +660,19 @@ ul {
 .modal-form .title span {
   font-weight: 700;
 }
+@media (max-width: 576px) {
+  .modal-form .title {
+    font-size: 34px;
+  }
+}
 .modal-form .subtitle {
   font-size: 18px;
   margin-bottom: 35px;
+}
+@media (max-width: 576px) {
+  .modal-form .subtitle {
+    font-size: 14px;
+  }
 }
 .modal-form form {
   display: -webkit-box;
@@ -687,6 +697,12 @@ ul {
   z-index: 1;
   color: #282828;
 }
+@media (max-width: 576px) {
+  .modal-form form select {
+    height: 60px;
+    font-size: 14px;
+  }
+}
 .modal-form form input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -697,10 +713,16 @@ ul {
   border-radius: 45px;
   padding: 1vh 2vw;
   z-index: 1;
+  font-size: 18px;
 }
 .modal-form form input:not(:last-child) {
   margin-bottom: 20px;
-  font-size: 18px;
+}
+@media (max-width: 576px) {
+  .modal-form form input {
+    height: 60px;
+    font-size: 14px;
+  }
 }
 .modal-form form button {
   position: relative;
@@ -732,18 +754,37 @@ ul {
   position: absolute;
   right: -80px;
 }
+@media (max-width: 1140px) {
+  .modal-form form button {
+    height: 60px;
+    font-size: 12px;
+    padding-left: 25px;
+  }
+}
 .modal-form form .bg-book {
   position: absolute;
   left: -150px;
+}
+@media (max-width: 576px) {
+  .modal-form form .bg-book {
+    height: 260px;
+    left: -100px;
+  }
 }
 .modal-form .modal__cross {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 40px;
+  right: 40px;
   fill: #282828;
   cursor: pointer;
+}
+@media (max-width: 1140px) {
+  .modal-form {
+    width: 70%;
+    border-radius: 10%;
+  }
 }
 .modal-success {
   opacity: 0;
