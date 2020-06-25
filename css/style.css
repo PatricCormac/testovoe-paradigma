@@ -104,18 +104,19 @@ ul {
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
 }
 .header .bg-wave .wave {
   width: 100%;
 }
-.header .bg-wave .arrowdown {
+.header .arrowdown-wrap {
   position: absolute;
-  left: 50%;
-  bottom: 75px;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.header .arrowdown-wrap .arrowdown {
+  width: 13vw;
 }
 .header .bg-cart {
   position: absolute;
